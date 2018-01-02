@@ -1,0 +1,1152 @@
+[ 2017-11-28T21:26:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2017-11-28T21:26:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-11-28T21:27:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2017-11-28T21:27:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-11-28T21:28:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001771s ]
+
+[ 2017-11-28T21:28:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2017-11-28T21:29:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-11-28T21:29:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-11-28T21:30:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2017-11-28T21:30:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-11-28T21:31:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-11-28T21:31:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-11-28T21:32:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2017-11-28T21:32:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-11-28T21:33:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2017-11-28T21:33:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2017-11-28T21:34:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-11-28T21:34:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-11-28T21:35:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-11-28T21:35:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-11-28T21:36:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001610s ]
+
+[ 2017-11-28T21:36:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2017-11-28T21:37:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-11-28T21:37:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-11-28T21:38:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-11-28T21:38:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-11-28T21:39:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2017-11-28T21:39:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001479s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-11-28T21:40:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-11-28T21:40:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2017-11-28T21:41:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-11-28T21:41:00+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /Library/Webserver/News/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /Library/Webserver/News/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant __ROOT__ - assumed '__ROOT__' /Library/Webserver/News/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php 第 38 行.
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 7 行.
+NOTIC: [8] Undefined variable: config /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 8 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 22 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: catId /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 23 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 34 行.
+NOTIC: [8] Undefined index: topPicNews /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 35 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: description /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 53 行.
+NOTIC: [8] Undefined index: keywords /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: count /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 56 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+NOTIC: [8] Undefined index: name /Library/Webserver/News/Application/Runtime/Cache/Home/3e8784a0154fd17ac0cde7f509f6d75d.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+

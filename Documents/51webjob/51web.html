@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /*border: 1px solid blue;*/
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        hr{
+            display: block;
+        }
+        .header{
+            /*border-bottom: solid 1px transparent;*/
+        }
+        .xiankuan{
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .clear::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .head-top{
+            height: 30px;
+            background-color: #333333;
+            color: #cccccc;
+            font-size: 12px;
+            line-height: 30px;
+        }
+        .head-top a{
+            color: #cccccc;
+        }
+        .dianhua{
+            float: left;
+        }
+        .qq{
+            float: left;
+            margin-left: 20px;
+        }
+        .zhuce{
+            float: right;
+            margin-right: 6px;
+        }
+        .denglu{
+            float: right;
+            margin-right: 6px;
+        }
+        .shu{
+            float: right;
+            margin-right: 6px;
+        }
+        .logo{
+            width: 350px;
+            height: 100px;
+            float: left;
+        }
+        .qiehuan{
+            float: left;
+            height: 100px;
+            line-height: 100px;
+            margin-left: 24px;
+            font-size: 14px;
+            color: #666666;
+        }
+        .chengshi{
+
+        }
+        .csqiehuan{
+
+        }
+        .sousuo{
+            height: 100px;
+            float: right;
+        }
+        .search{
+            float: right;
+            height: 40px;
+            margin-top: 20px;
+        }
+        .sousuok{
+            float: right;
+            width: 424px;
+            height: 40px;
+            border: solid 2px #ef1010;
+        }
+        div.sousuok input{
+            outline: none;
+            width: 360px;
+            height: 36px;
+            border: none;
+            padding-left: 5px;
+        }
+        .xialafenlei{
+            float: left;
+            width: 60px;
+            height: 36px;
+            font-size: 12px;
+            color: #999999;
+            line-height: 36px;
+            padding-left: 8px;
+            border-right: solid 1px #dddddd;
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+            background-image: url("xiasanjiao.jpg");
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: right;
+        }
+        .sousuotb{
+            float: right;
+        }
+        .keyword{
+
+        }
+        .alianjie a{
+            display: block;
+            float: left;
+            text-decoration: none;
+        }
+        div.keyword ul li a{
+            font-size: 12px;color: #999999;
+            margin-left: 9px;
+            margin-top: 10px;
+        }
+        div.keyword ul li a:hover{
+            color: red;
+        }
+        .head-bottom{
+            height: 40px;
+            background-color: #ef1010;
+            border-top: 1px solid #cccccc;
+        }
+        div.head-bottom div.xiankuan a{
+            font-size: 16px;
+            color: #ffffff;
+            line-height: 39px;
+            padding: 0 25px;
+        }
+        div.head-bottom div.xiankuan a:hover{
+            background-color: #cc0000;
+        }
+        .mid{
+            border-top: solid 1px transparent;
+            background-color: #f6f6f6;
+            /*border-bottom: solid 1px blue;*/
+            padding-bottom: 1px;
+        }
+        .container{
+            margin: 20px auto;
+        }
+        .mid-A{
+
+        }
+        .mid-A-left{
+            width: 250px;
+            background-color: white;
+            float: left;
+        }
+        div.mid-A-left hr{
+            color: #e5e5e5;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 5px;
+        }
+        .zhiyefenlei{
+            border-top: transparent solid 1px;
+        }
+        .flname{
+            font-size: 16px;
+            color: #333333;
+            margin-top: 19px;
+            border-left: solid 2px #ff0000;
+            padding-left: 18px;
+        }
+        .xiangxifl{
+            margin-left: 20px;
+        }
+        .xiangxifl a{
+            /*display: list-item;*/
+            /*text-align: -webkit-match-parent;*/
+            font-size: 14px;
+            color: #666666;
+            margin-top: 10px;
+            margin-right: 9px;
+        }
+        .xiangxifl a:hover{
+            color: #df1e19;
+        }
+        .zhanweikuang{
+            width: 250px;
+            height: 20px;
+            background-color: #f6f6f6;
+        }
+        .ad{
+            width: 100%;
+            height: 301px;
+        }
+        .mid-A-right{
+            width: 930px;
+            float: right;
+        }
+        .lunfantu{
+
+        }
+        .datu{
+            width: 930px;
+            height: 270px;
+            position: relative;
+            background-image: url("lunfan-green.jpg");
+            animation-name:myfirst;
+            animation-duration:8s;
+            /*animation-timing-function:;*/
+            animation-iteration-count:infinite;
+        }
+        @keyframes myfirst {
+            0% {
+                background-image: url("lunfan-green.jpg");
+            }
+            25% {
+                background-image: url("lunfan-orange.jpg");
+            }
+            50% {
+                background-image: url("lunfan-black.jpg");
+            }
+            75% {
+                background-image: url("lunfan-blue.jpg");
+            }
+            100% {
+                background-image: url("lunfan-green.jpg");
+            }
+        }
+        div.datu img{
+            position: absolute;
+            top:0;
+            left: 0;
+        }
+        .xiaotu{
+            margin-top: 3px;
+            position: relative;
+        }
+        div.xiaotu a{
+            width: 226px;
+            height: 88px;
+            display: block;
+            float: left;
+            margin-right:8px;
+            /*opacity:;*/
+        }
+        a#lunfan-green{
+            background-image: url("lunfan-dark-g.png");
+            background-repeat: no-repeat;
+            background-size: 226px 88px;
+        }
+        a#lunfan-orange{
+            background-image: url("lunfan-dark-o.png");
+            background-repeat: no-repeat;
+            background-size: 226px 88px;
+        }
+        a#lunfan-black{
+            background-image: url("lundan-dark-black.png");
+            background-repeat: no-repeat;
+            background-size: 226px 88px;
+        }
+        a#lunfan-blue{
+            background-image: url("lunfan-dark-blue.png");
+            background-repeat: no-repeat;
+            background-size: 226px 88px;
+            float: right;
+            margin-right: 0;
+        }
+        a#lunfan-green:hover{
+            background-image: url("lunfan-green.jpg");
+        }
+        a#lunfan-green:hover::before{
+            content: '';
+            border: solid 10px;
+            border-color: transparent transparent #f6f6f6 transparent;
+            position: absolute;
+            left: 105px;
+            top: -23px;
+        }
+        a#lunfan-orange:hover{
+            background-image: url("lunfan-orange.jpg");
+        }
+        a#lunfan-orange:hover::before{
+            content: '';
+            border: solid 10px;
+            border-color: transparent transparent #f6f6f6 transparent;
+            position: absolute;
+            left: 337px;
+            top: -23px;
+        }
+        a#lunfan-black:hover{
+            background-image: url("lunfan-black.jpg");
+        }
+        a#lunfan-black:hover::before{
+            content: '';
+            border: solid 10px;
+            border-color: transparent transparent #f6f6f6 transparent;
+            position: absolute;
+            left: 570px;
+            top: -23px;
+        }
+        a#lunfan-blue:hover{
+            background-image: url("lunfan-blue.jpg");
+        }
+        a#lunfan-blue:hover::before{
+            content: '';
+            border: solid 10px;
+            border-color: transparent transparent white transparent;
+            position: absolute;
+            left: 803px;
+            top: -23px;
+        }
+        .zuixinzhiwei{
+            margin-top: 15px;
+            width: 930px;
+            border-top: solid 1px transparent;
+            border-bottom: solid 1px transparent;
+            background-color: white;
+        }
+        .header-zxzw{
+            height: 40px;
+            /*border: solid 1px blue;*/
+        }
+        .biaoti-zxzw{
+            float: left;
+            font-size: 16px;
+            color: #333333;
+            margin-top: 19px;
+            border-left: solid 2px #ff0000;
+            padding-left: 18px;
+        }
+        .body-zxzw{
+            margin-top: 18px;
+            margin-left: 15px;
+        }
+        div.fenlei-zxzw a{
+            display: block;
+            float: right;
+            font-size: 14px;
+            color: #aaaaaa;
+            padding: 20px 20px 0px;
+            /*border: solid 1px blue;*/
+        }
+        .fenlei-zxzw a:hover{
+            color: #666666;
+        }
+        .xiangxixinxi-zxzw{
+            float: left;
+            width: 445px;
+            padding: 10px 20px 12px 10px;
+        }
+        .zxzw-xxxx-left{
+            float: left;
+        }
+        div.xiangxixinxi-zxzw:hover{
+            background-color: #f6f6f6;
+        }
+        div.flname-zxzw{
+            border-bottom: transparent 1px solid;
+            width: 125px;
+            height: 20px;
+            overflow: hidden;
+        }
+        div.gongsiname{
+            margin-top: 8px;
+            width: 125px;
+            height: 20px;
+            overflow: hidden;
+        }
+        .flname-zxzw a{
+            font-size: 16px;
+            color: #333333;
+        }
+        .flname-zxzw a:hover{
+            color: #ef1010;
+        }
+        .gongsiname a{
+            font-size: 14px;
+            color: #666666;
+        }
+        .gongsiname a:hover{
+            text-decoration: underline;
+        }
+        .zxzw-xxxx-mid{
+            float: left;
+            margin-left: 18px;
+        }
+        .gongzi{
+            font-size: 16px;
+            color: #cc0000;
+            border-bottom: solid 1px transparent;
+        }
+        .gongzuodidian{
+            font-size: 14px;
+            color: #666666;
+            margin-top: 8px;
+        }
+        .zxzw-xxxx-right{
+            float: right;
+            font-size: 14px;
+            color: #666666;
+        }
+        .fabushijian{
+            text-align: right;
+            border-bottom: solid 1px transparent;
+        }
+        .fabushijian span{
+            color: #ff3300;
+        }
+        .jyxlyaoqiu{
+            text-align: right;
+            margin-top: 8px;
+        }
+        .footer-zxzw a{
+            display: block;
+            width: 892px;
+            height: 51px;
+            line-height: 51px;
+            text-align: center;
+            border: solid 1px #b7b6b6;
+            margin-left: 20px;
+            background-color: #cccccc;
+            font-size: 16px;
+            color: #333333;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .footer-zxzw a:hover{
+            background-color: #a9a6a6;
+        }
+        .mid-B{
+            margin-top: 20px;
+        }
+        .mid-B-left{
+            padding: 130px 37px;
+            float: left;
+            /*border: solid 1px blue;*/
+        }
+        .mid-B-right{
+            padding: 130px 37px;
+            float: right;
+        }
+        .mid-B-mid{
+            /*border: solid 1px blue;*/
+            background-color: white;
+            float: left;
+            padding-bottom: 40px;
+            margin-left: 24px;
+        }
+        .mid-B-mid-head{
+            font-size: 18px;
+            color: #333333;
+            margin-top: 15px;
+            border-left: solid 2px #ff0000;
+            padding-left: 28px;
+            border-bottom: solid 1px transparent;
+        }
+        .mid-B-mid-body{
+            margin-top: 15px;
+            margin-left: 28px;
+        }
+        .mid-B-mid-body li a{
+            display: block;
+            float: left;
+            margin-right: 16px;
+        }
+        .mid-C{
+            margin-top: 20px;
+            border-bottom: solid 1px transparent;
+        }
+        .mid-C-left{
+            float: left;
+            width: 387px;
+            height: 405px;
+            background-color: white;
+            border-top: transparent solid 1px;
+        }
+        .mid-C-left-head{
+            font-size: 18px;
+            color: #333333;
+            margin-top: 20px;
+            border-left: solid 2px #ff0000;
+            padding-left: 19px;
+            border-bottom: solid 1px transparent;
+        }
+        .mid-C-left-body{
+            width: 351px;
+            margin-top: 20px;
+            margin-left: 13px;
+        }
+        .mid-C-left-body-xq{
+            height: 40px;
+            border-bottom: solid 1px #cccccc;
+            overflow: hidden;
+        }
+        div.mid-C-left-body-xq:hover{
+            height: 61px;
+        }
+        div.mid-C-left-body-xq:hover div.mid-C-left-body-xq-left{
+            height: 40px;
+            line-height: 40px;
+        }
+        div.mid-C-left-body-xq:hover div.mid-C-left-body-xq-mid{
+            height: 61px;
+        }
+        div.mid-C-left-body-xq:hover div.mid-C-left-body-xq-mid a{
+            color: #333333;
+        }
+        div.mid-C-left-body-xq:hover div.mid-C-left-body-xq-right{
+            height: 61px;
+            line-height: 61px;
+            color: #ef1010;
+        }
+        .mid-C-left-body-xq-left{
+            width: 20px;
+            height: 20px;
+            font-size: 14px;
+            margin: 10px 3px 10px 0px;
+            border-radius: 2px;
+            text-align: center;
+            color: white;
+            background-color: #ef1010;
+            float: left;
+        }
+        .mid-C-left-body-xq-mid{
+            float: left;
+            position: relative;
+        }
+        .gangwei{
+            font-size: 12px;
+            color: #999999;
+            position: absolute;
+            top: 36px;
+        }
+        .mid-C-left-body-xq-mid a{
+            width: 215px;
+            height: 40px;
+            display: block;
+            line-height: 40px;
+            color: #666666;
+            font-size: 14px;
+            overflow: hidden;
+        }
+        .mid-C-left-body-xq-right{
+            height: 40px;
+            font-size: 14px;
+            line-height: 40px;
+            color: #666666;
+            text-align: right;
+            float: right;
+        }
+        .bianse{
+            background-color: #cccccc;
+        }
+        .mid-C-mid{
+            float: left;
+            background-color: white;
+            margin-left: 22px;
+            width: 387px;
+            height: 405px;
+        }
+        .mid-C-right{
+            float: right;
+            background-color: white;
+            width: 387px;
+            height: 405px;
+        }
+        .mid-D{
+            margin-top: 20px;
+            border-bottom: solid 1px transparent;
+            background-color: white;
+        }
+        .mid-D-head{
+            height: 40px;
+            border-bottom: transparent solid 1px;
+            /*border: solid 1px blue;*/
+        }
+        .mid-D-biaoti{
+            float: left;
+            font-size: 16px;
+            color: #333333;
+            margin-top: 15px;
+            border-left: solid 2px #ff0000;
+            padding-left: 18px;
+        }
+        div.mid-D-fenlei a{
+            display: block;
+            float: right;
+            font-size: 14px;
+            color: #aaaaaa;
+            padding: 16px 20px 0px;
+            /*border: solid 1px blue;*/
+        }
+        .mid-D-fenlei a:hover{
+            color: #666666;
+        }
+        .mid-D-body{
+            margin-top: 15px;
+        }
+        .zxgonglue{
+            width: 565px;
+            height: 121px;
+            float: left;
+            margin-left: 18px;
+            margin-bottom: 17px;
+        }
+        .zxgl-left a img{
+            display: block;
+            width: 160px;
+            height: 120px;
+            float: left;
+            margin-right: 19px;
+        }
+        .zxgl-right{
+            float: left;
+        }
+        .zxgl-right-head{
+            margin-top: 7px;
+            border-bottom: solid 1px transparent;
+        }
+        .zxgl-right-head-biaoti a{
+            display: block;
+            font-size:16px;
+            color: #333333;
+            float: left;
+        }
+        .zxgl-right-head-biaoti a:hover{
+            color:#ff0000;
+        }
+        .zxgl-right-head-shijian{
+            font-size: 14px;
+            color: #999999;
+            text-align: right;
+            float: right;
+        }
+        .zxgl-right-body{
+            width: 379px;
+            font-size: 14px;
+            color: #999999;
+            margin-top: 7px;
+        }
+        .footer{
+            /*margin-top: 20px;*/
+            /*border: solid 1px blue;*/
+        }
+        .yqts{
+            background-color: #f6f6f6;
+            border-top: solid 1px #cccccc;
+            height: 55px;
+        }
+        div.yqts div.xiankuan{
+            color: #383636;
+            font-size: 18px;
+            line-height: 55px;
+        }
+        .bottom{
+            height: 150px;
+            background-color: #333333;
+            padding-bottom: 23px;
+        }
+        .footer-content{
+            font-size: 12px;
+            color: #cccccc;
+            line-height: 22px;
+            padding-top: 35px;
+            background-image: url("logo-2.jpg");
+            background-repeat: no-repeat;
+            background-size: 162px 64px;
+            background-position: bottom right ;
+        }
+        .footer-content a{
+            font-size: 12px;
+            color: #cccccc;
+        }
+    </style>
+</head>
+
+
+<body>
+<div class="header clear">
+    <div class="head-top">
+        <div class="xiankuan clear">
+            <div class="dianhua">全国统一服务热线：020-23308689</div>
+            <div class="qq"><a href="#">客服QQ</a></div>
+            <div class="zhuce"><a href="#">注册</a> </div>
+            <div class="shu">|</div>
+            <div class="denglu"><a href="#">登录</a> </div>
+        </div>
+    </div>
+    <div class="head-mid">
+        <div class="xiankuan clear">
+            <div class="logo clear"><a href="#"><img src="logo.jpg"></a></div>
+            <div class="qiehuan clear"><span class="chengshi">广州</span><span class="csqiehuan">[城市切换]</span></div>
+            <div class="sousuo clear">
+                <div class="search">
+                    <div class="sousuotb"><a href="#"><img src="search.jpg"></a></div>
+                    <div class="sousuok">
+                        <div class="xialafenlei">
+                            全文
+                        </div>
+                        <input type="text" name="sousuoneirong" placeholder="搜索职位">
+                    </div>
+                </div>
+                <div class="keyword alianjie">
+                    <ul>
+                        <li><a href="#">PHP</a> </li>
+                        <li><a href="#">设计</a> </li>
+                        <li><a href="#">SEO/Android/淘宝/销售</a> </li>
+                        <li><a href="#">seo</a> </li>
+                        <li><a href="#">网页设计</a> </li>
+                        <li><a href="#">PHP程序员</a> </li>
+                        <li><a href="#">phper</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head-bottom">
+        <div class="xiankuan clear alianjie">
+            <ul>
+                <li><a href="#">首页</a> </li>
+                <li><a href="#">企业招聘</a> </li>
+                <li><a href="#">人才库</a> </li>
+                <li><a href="#">求职攻略</a> </li>
+                <li><a href="#">人才服务</a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="mid clear">
+    <div class="container clear">
+        <div class="mid-A xiankuan clear">
+            <div class="mid-A-left">
+                <div class="zhiyefenlei alianjie clear">
+                    <div class="flname">编程开发类</div>
+                    <div class="xiangxifl">
+                        <a href="#">技术总监</a>
+                        <a href="#">技术经理</a>
+                        <a href="#">高级PHP工程师</a>
+                        <a href="#">PHP工程师</a>
+                        <a href="#">Android工程师</a>
+                        <a href="#">IOS工程师</a>
+                        <a href="#">Java工程师</a>
+                        <a href="#">.NET工程师</a>
+                        <a href="#">ASP工程师</a>
+                        <a href="#">其他编程语言</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="zhiyefenlei alianjie clear">
+                    <div class="flname">前端技术类</div>
+                    <div class="xiangxifl"><a href="#">前端工程师</a> </div>
+                </div>
+                <hr>
+                <div class="zhiyefenlei alianjie clear">
+                    <div class="flname">界面设计类</div>
+                    <div class="xiangxifl"><a href="#">设计总监</a> </div>
+                    <div class="xiangxifl"><a href="#">设计经理</a> </div>
+                    <div class="xiangxifl"><a href="#">高级网页设计师</a> </div>
+                    <div class="xiangxifl"><a href="#">网页设计师</a> </div>
+                    <div class="xiangxifl"><a href="#">UI设计师</a> </div>
+                    <div class="xiangxifl"><a href="#">网页美工</a> </div>
+                    <div class="xiangxifl"><a href="#">淘宝美工</a> </div>
+                </div>
+                <hr>
+                <div class="zhiyefenlei alianjie clear">
+                    <div class="flname">项目管理类</div>
+                    <div class="xiangxifl"><a href="#">项目总监</a> </div>
+                    <div class="xiangxifl"><a href="#">项目经理</a> </div>
+                    <div class="xiangxifl"><a href="#">项目助理</a> </div>
+                </div>
+                <hr>
+                <div class="zhiyefenlei alianjie clear">
+                    <div class="flname">运营/推广/网络营销类</div>
+                    <div class="xiangxifl"><a href="#">网络运营总监</a> </div>
+                    <div class="xiangxifl"><a href="#">网络运营经理/主管</a> </div>
+                    <div class="xiangxifl"><a href="#">网络运营专员</a> </div>
+                    <div class="xiangxifl"><a href="#">网站维护</a> </div>
+                    <div class="xiangxifl"><a href="#">网站编辑</a> </div>
+                    <div class="xiangxifl"><a href="#">网站策划</a> </div>
+                    <div class="xiangxifl"><a href="#">SEO专员</a> </div>
+                    <div class="xiangxifl"><a href="#">推广专员</a> </div>
+                    <div class="xiangxifl"><a href="#">淘宝推广专员</a> </div>
+                    <div class="xiangxifl"><a href="#">媒介专员</a> </div>
+                    <div class="xiangxifl"><a href="#">广告投放专员</a> </div>
+                    <div class="xiangxifl"><a href="#">竞价推广专员</a> </div>
+                </div>
+                <hr>
+                <div class="zhiyefenlei alianjie clear">
+                    <div class="flname">市场营销类</div>
+                    <div class="xiangxifl"><a href="#">销售总监</a> </div>
+                    <div class="xiangxifl"><a href="#">销售经理/主管</a> </div>
+                    <div class="xiangxifl"><a href="#">区域销售经理/主管</a> </div>
+                    <div class="xiangxifl"><a href="#">团购经理/主管</a> </div>
+                    <div class="xiangxifl"><a href="#">大客户</a> </div>
+                    <div class="xiangxifl"><a href="#">经理/客户经理</a> </div>
+                    <div class="xiangxifl"><a href="#">销售代表/电话销售</a> </div>
+                </div>
+                <hr>
+                <div class="zhanweikuang"></div>
+                <div class="ad">
+                    <a href="#"><img src="ad.jpg"></a>
+                </div>
+            </div>
+            <div class="mid-A-right">
+                <div class="lunfantu clear">
+                    <div class="datu">
+                        <a href="#"></a>
+                        <img src="banjiao.png">
+                    </div>
+                    <div class="xiaotu">
+                        <a href="#" id="lunfan-green"></a>
+                        <a href="#" id="lunfan-orange"></a>
+                        <a href="#" id="lunfan-black"></a>
+                        <a href="#" id="lunfan-blue"></a>
+                    </div>
+                </div>
+                <div class="zuixinzhiwei">
+                    <div class="header-zxzw clear">
+                        <div class="biaoti-zxzw">最新职位</div>
+                        <div class="fenlei-zxzw">
+                            <a href="#">市场销售类</a>
+                            <a href="#">运营/推广/网络营销类</a>
+                            <a href="#">项目管理类</a>
+                            <a href="#">界面设计类</a>
+                            <a href="#">前端技术类</a>
+                            <a href="#">编程开发类</a>
+                        </div>
+                    </div>
+                    <div class="body-zxzw clear">
+                        <div class="xiangxixinxi-zxzw">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">电话销售</a> </div>
+                                <div class="gongsiname"><a href="#">广州启泰科技有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">面议</div>
+                                <div class="gongzuodidian">[广东/广州/越秀]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[<span>2天前</span>]</div>
+                                <div class="jyxlyaoqiu">经验不限制/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">销售代表</a> </div>
+                                <div class="gongsiname"><a href="#">广州启泰科技有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">面议</div>
+                                <div class="gongzuodidian">[广东/广州/越秀]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[<span>1天前</span>]</div>
+                                <div class="jyxlyaoqiu">经验不限制/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">销售代表/销售经理</a> </div>
+                                <div class="gongsiname"><a href="#">广州启泰科技有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">面议</div>
+                                <div class="gongzuodidian">[广东/广州/越秀]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[<span>1天前</span>]</div>
+                                <div class="jyxlyaoqiu">经验不限制/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">电话销售/网络销售</a> </div>
+                                <div class="gongsiname"><a href="#">广州启泰科技有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">6000-6999</div>
+                                <div class="gongzuodidian">[广东/广州/越秀]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[<span>1天前</span>]</div>
+                                <div class="jyxlyaoqiu">经验不限制/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">诚聘销售精英双倍工资</a> </div>
+                                <div class="gongsiname"><a href="#">广州启泰科技有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">6000-6999</div>
+                                <div class="gongzuodidian">[广东/广州/越秀]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[<span>1天前</span>]</div>
+                                <div class="jyxlyaoqiu">经验不限制/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">行政专员实习</a> </div>
+                                <div class="gongsiname"><a href="#">广州讯猫软件有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">面议</div>
+                                <div class="gongzuodidian">[广东/广州/越秀]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-5-31]</div>
+                                <div class="jyxlyaoqiu">经验不限制/不限制</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">行政助理</a> </div>
+                                <div class="gongsiname"><a href="#">广州讯猫软件有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">面议</div>
+                                <div class="gongzuodidian">[广东/广州/越秀]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-5-31]</div>
+                                <div class="jyxlyaoqiu">经验不限制/不限制</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">德语销售</a> </div>
+                                <div class="gongsiname"><a href="#">广州有贝电子商务有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">6000-6999</div>
+                                <div class="gongzuodidian">[广东/广州/白云]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-5-17]</div>
+                                <div class="jyxlyaoqiu">经验不限制/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">意大利语销售</a> </div>
+                                <div class="gongsiname"><a href="#">广州有贝电子商务有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">面议</div>
+                                <div class="gongzuodidian">[广东/广州/白云]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-5-12]</div>
+                                <div class="jyxlyaoqiu">经验不限制/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">JAVA软件开发工程师</a> </div>
+                                <div class="gongsiname"><a href="#">广州市东信达计算机有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">8000-8999</div>
+                                <div class="gongzuodidian">[广东/广州/荔湾]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-4-24]</div>
+                                <div class="jyxlyaoqiu">经验不限制/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">WEB前端开发工程师</a> </div>
+                                <div class="gongsiname"><a href="#">广州市东信达计算机有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">8000-8999</div>
+                                <div class="gongzuodidian">[广东/广州/荔湾]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-4-24]</div>
+                                <div class="jyxlyaoqiu">经验1-3年/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">售后技术支持工程师</a> </div>
+                                <div class="gongsiname"><a href="#">广州市东信达计算机有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">4000-4999</div>
+                                <div class="gongzuodidian">[广东/广州/荔湾]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-4-24]</div>
+                                <div class="jyxlyaoqiu">经验不限制/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">ERP实施顾问</a> </div>
+                                <div class="gongsiname"><a href="#">广州市东信达计算机有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">8000-8999</div>
+                                <div class="gongzuodidian">[广东/广州/荔湾]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-4-24]</div>
+                                <div class="jyxlyaoqiu">经验1-3年/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">ERP实施工程师</a> </div>
+                                <div class="gongsiname"><a href="#">广州市东信达计算机有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">6000-6999</div>
+                                <div class="gongzuodidian">[广东/广州/荔湾]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-4-24]</div>
+                                <div class="jyxlyaoqiu">经验1-3年/大专</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">高薪诚聘数据线工程师</a> </div>
+                                <div class="gongsiname"><a href="#">广州市董大电子科技有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">1万以上</div>
+                                <div class="gongzuodidian">[广东/广州/番禺]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-1-10]</div>
+                                <div class="jyxlyaoqiu">经验1-3年/高中</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">高薪诚聘淘宝仓库理货员</a> </div>
+                                <div class="gongsiname"><a href="#">广州市董大电子科技有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">4000-4999</div>
+                                <div class="gongzuodidian">[广东/广州/番禺]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-1-10]</div>
+                                <div class="jyxlyaoqiu">经验1年一下/高中</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">高薪诚聘淘宝运输司机</a> </div>
+                                <div class="gongsiname"><a href="#">广州市董大电子科技有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">3000-3999</div>
+                                <div class="gongzuodidian">[广东/广州/番禺]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-1-10]</div>
+                                <div class="jyxlyaoqiu">经验1年以下/高中</div>
+                            </div>
+                        </div>
+                        <div class="xiangxixinxi-zxzw clear">
+                            <div class="zxzw-xxxx-left">
+                                <div class="flname-zxzw"><a href="#">高薪诚聘淘宝美工</a> </div>
+                                <div class="gongsiname"><a href="#">广州市董大电子科技有限公司</a> </div>
+                            </div>
+                            <div class="zxzw-xxxx-mid">
+                                <div class="gongzi">4000-4999</div>
+                                <div class="gongzuodidian">[广东/广州/番禺]</div>
+                            </div>
+                            <div class="zxzw-xxxx-right">
+                                <div class="fabushijian">[2017-1-10]</div>
+                                <div class="jyxlyaoqiu">经验1年一下/高中</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-zxzw">
+                        <a href="#">查看全部职位</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mid-B clear">
+            <div class="mid-B-left">
+                <a href="#"><img src="brand_left.png"></a>
+            </div>
+            <div class="mid-B-mid xiankuan clear">
+                <div class="mid-B-mid-head">
+                    名企招聘
+                </div>
+                <div class="mid-B-mid-body">
+                    <ul>
+                        <li><a href="#"><img src="1470450331857.jpg"></a> </li>
+                        <li><a href="#"><img src="1470450425722.gif.jpeg"></a> </li>
+                        <li><a href="#"><img src="1470450476192.jpg"></a> </li>
+                        <li><a href="#"><img src="1470450528479.gif"></a> </li>
+                        <li><a href="#"><img src="1470450688407.gif"></a> </li>
+                        <li><a href="#"><img src="1470451009727.gif"></a> </li>
+                        <li><a href="#"><img src="1470452917819.gif.jpeg"></a> </li>
+                        <li><a href="#"><img src="1470452963409.gif"></a> </li>
+                        <li><a href="#"><img src="1470453016667.jpg"></a> </li>
+                        <li><a href="#"><img src="1470453091516.jpg"></a> </li>
+                        <li><a href="#"><img src="1470453128326.jpg"></a> </li>
+                        <li><a href="#"><img src="1470453163319.jpg"></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mid-B-right">
+                <a href="#"><img src="brand_right.png"></a>
+            </div>
+        </div>
+        <div class="mid-C xiankuan clear">
+            <div class="mid-C-left">
+                <div class="mid-C-left-head">
+                    推荐职位
+                </div>
+                <div class="mid-C-left-body clear">
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left">1</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州有贝电子商务有限公司意大利语</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left">2</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州东信达计算机技术有限公司JAVA工程师</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">8000-8999</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left">3</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州东信达计算机技术有限公司WEB前段工程师</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">8000-8999</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">4</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州东信达计算机技术有限公司售后技术</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">4000-4999</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">5</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州东信达计算机技术有限公司EPR实施</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">8000-8999</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">6</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州东信达计算机技术有限公司EPR实施</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">6000-6999</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">7</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州董大电子科技有限公司高薪诚聘</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">1万以上</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">8</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州董大电子科技有限公司售后技术</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">4000-4999</div>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-C-mid">
+                <div class="mid-C-left-head">
+                    最新职位
+                </div>
+                <div class="mid-C-left-body clear">
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left">1</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州盛华信息有限公司_联通回访</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left">2</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州盛华信息有限公司_联通100…</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left">3</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_销售代表</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">4</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_销售工程</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">5</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_销售业务</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">6</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_销售代表</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">7</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_.net程</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">8</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_.net软</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-C-right">
+                <div class="mid-C-left-head">
+                    热门职位
+                </div>
+                <div class="mid-C-left-body clear">
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left">1</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_.net程…</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left">2</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_.net软</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left">3</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_销售代表+</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">4</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_销售工程师</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">5</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_销售业务员…</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">6</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州企泰信息科技有限…_销售代表/…</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">7</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州盛华信息有限公司_联通回访客</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                    <div class="mid-C-left-body-xq clear">
+                        <div class="mid-C-left-body-xq-left bianse">8</div>
+                        <div class="mid-C-left-body-xq-mid">
+                            <a href="#">广州盛华信息有限公司_联通100…</a>
+                            <div class="gangwei">通信/电信/网络设备</div>
+                        </div>
+                        <div class="mid-C-left-body-xq-right">面议</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mid-D xiankuan clear">
+            <div class="mid-D-head clear">
+                <div class="mid-D-biaoti">求职攻略</div>
+                <div class="mid-D-fenlei">
+                    <a href="#">咨询中心</a>
+                    <a href="#">职场话题</a>
+                    <a href="#">多迪动态</a>
+                    <a href="#">薪酬福利</a>
+                    <a href="#">人际关系</a>
+                    <a href="#">职业指导</a>
+                    <a href="#">面试技巧</a>
+                    <a href="#">简历指导</a>
+                </div>
+            </div>
+            <div class="mid-D-body clear">
+                <div class="zxgonglue clear">
+                    <div class="zxgl-left">
+                        <a href="#"><img src="mid-D-1.jpg"></a>
+                    </div>
+                    <div class="zxgl-right clear">
+                        <div class="zxgl-right-head clear">
+                            <div class="zxgl-right-head-biaoti"><a href="#">高级求职简历如何写</a> </div>
+                            <div class="zxgl-right-head-shijian">2017-8-15</div>
+                        </div>
+                        <div class="zxgl-right-body">
+                            <p>简历格式结构包括页眉部分、教育背景、工作经历和个人资料四部分。如果已经有全职工作了，一定把工作经历放在第二;如果您目前还是在校学生，应该把教育背景放在第二。...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="zxgonglue clear">
+                    <div class="zxgl-left">
+                        <a href="#"><img src="mid-D-2.jpg"></a>
+                    </div>
+                    <div class="zxgl-right clear">
+                        <div class="zxgl-right-head clear">
+                            <div class="zxgl-right-head-biaoti"><a href="#">求职简历上哪些内容不能写</a> </div>
+                            <div class="zxgl-right-head-shijian">2017-8-15</div>
+                        </div>
+                        <div class="zxgl-right-body">
+                            <p>一、离婚 　　常常会见到这样有趣的现象，求职者在简历上无心写上的一些字句，如“婚姻状况：离婚”等(甚至写在简历开头)，导致即便是个合适人选也得不到面试机会的应聘结果...</p>
+                        </div>
+                    </div>
+                </div><div class="zxgonglue clear">
+                <div class="zxgl-left">
+                    <a href="#"><img src="mid-D-3.jpg"></a>
+                </div>
+                <div class="zxgl-right clear">
+                    <div class="zxgl-right-head clear">
+                        <div class="zxgl-right-head-biaoti"><a href="#">如何写令人瞩目的工作经验</a> </div>
+                        <div class="zxgl-right-head-shijian">2017-8-15</div>
+                    </div>
+                    <div class="zxgl-right-body">
+                        <p>人事经理对简历又爱又恨。他们必须浏览简历选择适合职位空缺的人选，但经常不得不费力地阅读一大堆写得不好的工作经验。如果你的信息能令人事经理眼前一亮，对你的资历迅速...</p>
+                    </div>
+                </div>
+            </div><div class="zxgonglue clear">
+                <div class="zxgl-left">
+                    <a href="#"><img src="mid-D-4.jpg"></a>
+                </div>
+                <div class="zxgl-right clear">
+                    <div class="zxgl-right-head clear">
+                        <div class="zxgl-right-head-biaoti"><a href="#">简历乱象大盘点 不要犯这些错!</a> </div>
+                        <div class="zxgl-right-head-shijian">2017-8-15</div>
+                    </div>
+                    <div class="zxgl-right-body">
+                        <p>简历乱象 浏览简历无数，见过真心吸引人的，也见过让人啼笑皆非的，举几个现象，谈一谈我对这些简历的看法。 1. 简历掺水 a. 薪资不是写的越高越好 看到很多人为了寻求...</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="yqts">
+        <div class="xiankuan">
+            友情链接
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="xiankuan">
+            <div class="footer-content">
+                <a href="#">无忧网才是专业的互联网人才招聘平台。</a><br>
+                版权所有<a href="#"> CopyRight 2003-2016 广州多迪网络网络科技有限公司 粤ICP备06096158号-11</a><a href="#"><img src="pic.gif"></a><br>
+                地址： 广州市白云区永泰永平泰兴路4号恒企大厦2楼   法律顾问：广东正大联合律师事务所 吴炳波<br>
+                网站服务热线：020-23308689(招聘部)
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var datu = document.getElementsByClassName('datu')[0];
+
+    var lunfan_green = document.getElementById('lunfan-green');
+    lunfan_green.addEventListener('mouseenter',function () {
+        datu.style.backgroundImage = 'url(lunfan-green.jpg)';
+        datu.style.animationName = 'a';
+    },false);
+    lunfan_green.addEventListener('mouseout',function () {
+        datu.style.animationName = 'myfirst';
+    },false);
+
+    var lunfan_orange = document.getElementById('lunfan-orange');
+    lunfan_orange.addEventListener('mouseenter',function () {
+        datu.style.backgroundImage = 'url(lunfan-orange.jpg)';
+        datu.style.animationName = 'a';
+    },false);
+    lunfan_orange.addEventListener('mouseout',function () {
+        datu.style.animationName = 'myfirst';
+    },false);
+
+    var lunfan_black = document.getElementById('lunfan-black');
+    lunfan_black.addEventListener('mouseenter',function () {
+        datu.style.backgroundImage = 'url(lunfan-black.jpg)';
+        datu.style.animationName = 'a';
+    },false);
+    lunfan_black.addEventListener('mouseout',function () {
+        datu.style.animationName = 'myfirst';
+    },false);
+
+    var lunfan_blue = document.getElementById('lunfan-blue');
+    lunfan_blue.addEventListener('mouseenter',function () {
+        datu.style.backgroundImage = 'url(lunfan-blue.jpg)';
+        datu.style.animationName = 'a';
+    },false);
+    lunfan_blue.addEventListener('mouseout',function () {
+        datu.style.animationName = 'myfirst';
+    },false);
+</script>
+</body>
+</html>
